@@ -40,7 +40,7 @@ The R programming language and the following R packages were used to perform the
 
 ## Results
 
-```{r plot horses, fig.width=10, fig.height=3, , fig.cap="Figure 1. Plot of All Provinces", fig.align='center'}
+```{r plot horses, fig.width=10, fig.height=3, fig.cap="Figure 1. Plot of All Provinces", fig.align='center'}
 horse_plot <- ggplot(horse_pop, aes(x = Ref_Date, y = Value)) +
   geom_point() +
   geom_line() +
